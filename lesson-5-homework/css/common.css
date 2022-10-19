@@ -1,0 +1,31 @@
+body {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.pretitle {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 57px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pretitle::after {
+    content: "";
+    display: block;
+    width: 170px;
+    border-bottom: 1px solid #ec7979;
+    margin: 57px auto 0;
+}
+
+
+

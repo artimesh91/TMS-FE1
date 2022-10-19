@@ -1,0 +1,59 @@
+.pricing-options {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+.pricing-options__title {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    padding: 57px 0;
+}
+
+.pricing-options__info {
+    color: #86878B;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pricing-cards-wrap{
+    display: flex;
+    margin-top: 65px;
+    justify-content: space-around;
+}
+.pricing-cards{
+    text-align: center;
+    width: 30%; 
+}
+
+.pricing-cards__name{
+    color: white;
+    background-color: #333333;
+    font-family: 'OS';
+    font-weight: 700;
+    font-size: 24px;
+    padding: 18px 0;
+    border-bottom: 2px solid white;
+}
+.pricing-cards__cost{
+    color: white;
+    background-color: #333333;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 32px 0;
+    border-bottom: 2px solid white;
+}
+.pricing-cards__info{
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #333333;
+    padding: 15px 0;
+}
+.options-list{
+    list-style-type: none;
+    color: #86878b;
+    background-color: white;
+}
+.options-list__item {
+    padding: 15px 0;
+    border: 2px solid #F5F5F5;
+}
+

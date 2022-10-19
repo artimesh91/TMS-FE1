@@ -1,0 +1,38 @@
+.awesome {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.awesome-wrap {
+    display: flex;
+    margin-top: 60px;
+}
+
+.awesome-item {
+    text-align: center;
+}
+
+.awesome-item__icon {
+    width: 92px;
+    height: 92px;
+    margin: 0 auto;
+    border: 1px solid #ec7979;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awesome-item__title {
+    font-family: 'OS';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100px;
+    margin-top: 10px;
+}
+
+.awesome__info {
+    color: #86878b;
+    text-align: center;
+    margin-top: 40px;
+}
