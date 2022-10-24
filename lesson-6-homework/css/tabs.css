@@ -1,0 +1,104 @@
+.tabs-section {
+    padding: 119px 0;
+  }
+  .tabs-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212a2f;
+  }
+  .tabs-shop {
+    text-align: center;
+    margin-top: 32px;
+  }
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"]:checked + label {
+    border-bottom: 2px solid black;
+  }
+  .tabs-shop label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #212a2f;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    display: inline-block;
+  }
+  .tabs-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+    border-top: 2px solid #d3d4d5;
+  }
+  .tabs-content {
+    width: calc((100% - 24px) / 3);
+  }
+  .tabs-content__img {
+    position: relative;
+  }
+  .tabs-content__img img {
+    width: 100%;
+  }
+  .shop-button-favorite {
+    color: rgba(33, 42, 47, 1);
+    background-color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 17px 0 15px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    min-width: 276px;
+    border: none;
+    text-transform: uppercase;
+  }
+  .tabs-content-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+    display: flex;
+    gap: 27px;
+  }
+  .tabs-subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #212a2f;
+    border-bottom: 1px solid #d3d4d5;
+    margin: 5px 22px;
+    padding: 10px 0px;
+  }
+  .tabs-subtitle-footer {
+    display: flex;
+    margin-left: 22px;
+    align-items: center;
+    margin-top: 12px;
+  }
+  .cloud {
+    width: 30px;
+    height: 30px;
+  }
+  .tabs-subtitle-footer__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #212a2f;
+    margin-left: 12px;
+  }

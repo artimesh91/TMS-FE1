@@ -1,0 +1,82 @@
+.footer {
+    background-color: #212a2f;
+    padding: 72px 54px;
+  }
+  .footer-block {
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+  }
+  
+  .footer-block-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 21px;
+    text-transform: uppercase;
+  }
+  .footer-block-list__item {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    margin-top: 16px;
+  }
+  .footer-block-list__item a {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-flock {
+    display: flex;
+    justify-content: space-between;
+  
+    margin-top: 85px;
+    padding-right: 195px;
+  }
+  
+  .footer-block-article-header {
+    font-family: "Roboto";
+    font-style: normal;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 21px;
+  }
+  .footer-block-article-discription {
+    font-family: "Roboto";
+    font-style: normal;
+    height: 54px;
+    width: 293px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: white;
+  }
+  .footer-block-countries {
+    display: flex;
+  }
+  .footer-block-countries-icon:not(:last-child) {
+    margin-right: 24px;
+  }
+  .footer-copyright {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: white;
+    text-align: center;
+    margin-top: 126px;
+  }
