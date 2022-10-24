@@ -1,87 +1,52 @@
+
+.allbirds-header {
+  padding: 11px 0;
+  background-color: #ffffff;
+}
 .header-wrap {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 18px;
-  
-}
-
-.navigation-list__item:not(:first-child) {
-  margin-left: 36px;
-  text-decoration: none;
-}
-
-.navigation-list__item a {
-  text-decoration: none;
-  color: #212A2F;
 }
 
 .navigation-list {
   display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  margin-left: 27px;
+  align-items: center;
+}
+.navigation-list li + li {
+  margin-left: 36px;
+}
+.navigation-list__item a {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  line-height: 21px;
+  color: #212a2f;
   text-decoration: none;
-  color: #212A2F;
+  letter-spacing: 1.7px;
 }
-
-.menu {
-  margin-right: 21px;
-  justify-content: space-between;
-  display: flex;
-}
-
-
-.menu__item:not(:last-child) {
-  justify-content: space-between;
-  margin-right: 39px;
+.logo {
+  margin: 0 200px 0 auto;
+  width: 120px;
 
 }
-
-.service-block {
+.logo img {
+  width: 100%;
+}
+.user-actions {
   display: flex;
   align-items: center;
 }
-
-.cervice-links {
-  margin-right: 34px; 
-  color: black;
+.user-actions__icons {
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
 }
-
-.menu__item a {
-  text-decoration: none;
-  color: #212A2F;
+.user-actions__icons a {
+  display: inline-block;
+  width: 30px;
+  font-size: 25px;
+  color: #212a2f;
 }
-
-.service-link:not(:last-child) {
-  margin-right: 21px;
-}
-
-.navigation-list__item {
-  font-size: 12px;
-  font-weight: 400;
-  max-width: 107px;
-  line-height: 21px;
-  color: #212A2F;
-  font-family: "Roboto";
-  src: url(../fonts/Roboto-Regular.ttf);
-
-}
-
-.logo {
-  text-align: center;
-}
-
-.menu__item {
-  font-size: 12px;
-  font-weight: 400;
-  max-width: 107px;
-  line-height: 21px;
-  color:#212A2F;
-  font-family: "Roboto";
-  src: url(../fonts/Roboto-Regular.ttf);
-}
-
-.navigation {
-    background-color: white;
+.user-actions__icons * + * {
+  margin-left: 18px;
 }
